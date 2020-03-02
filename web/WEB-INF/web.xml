@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>addArticle</servlet-name>
+        <jsp-file>/addArticle.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addArticle</servlet-name>
+        <url-pattern>/createarticle</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>news</servlet-name>
+        <jsp-file>/news.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>news</servlet-name>
+        <url-pattern>/news/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>user</servlet-name>
+        <jsp-file>/user.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>user</servlet-name>
+        <url-pattern>/user/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>blogs</servlet-name>
+        <jsp-file>/blogs.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>blogs</servlet-name>
+        <url-pattern>/blogs/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>addblog</servlet-name>
+        <jsp-file>/blogs/addblog.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addblog</servlet-name>
+        <url-pattern>/blogs/addblog/</url-pattern>
+    </servlet-mapping>
+</web-app>

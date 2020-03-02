@@ -1,0 +1,37 @@
+* {
+    font-size: 14px;
+}
+
+.container {
+    border: 1px solid black;
+    overflow: auto;
+}
+.header {
+    border: 1px solid black;
+}
+.sidebarMenu {
+    width: 15%;
+    border: 1px solid black;
+    float: left;
+}
+
+.auth {
+    border: 1px solid black;
+}
+.auth input {
+    max-width: 40%;
+}
+.auth form {
+    margin: 0;
+}
+.mainMenu {
+    border: 1px solid black;
+}
+.news {
+    width: 55%;
+    border: 1px solid black;
+    float: left;
+}
+.clearfix {
+    overflow: auto;
+}

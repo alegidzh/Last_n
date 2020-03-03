@@ -6,13 +6,6 @@
 <%@ page import="servlets.DatabaseConnection" %>
 <%@ page import="java.sql.PreparedStatement" %>
 <%@ page import="java.sql.Statement" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: olegi
-  Date: 12/23/2019
-  Time: 8:05 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

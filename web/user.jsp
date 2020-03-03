@@ -1,11 +1,5 @@
 <%@ page import="users.User" %>
-<%@ page import="java.sql.ResultSet" %><%--
-  Created by IntelliJ IDEA.
-  User: olegi
-  Date: 1/21/2020
-  Time: 6:47 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.sql.ResultSet" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>

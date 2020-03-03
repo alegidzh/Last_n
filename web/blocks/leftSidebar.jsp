@@ -2,12 +2,6 @@
 <%@ page import="users.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%
-
-
-
-%>
-
 <div class="sidebarMenu">
     <div></div>
     <div class="auth">
